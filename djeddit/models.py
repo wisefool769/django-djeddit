@@ -1,7 +1,7 @@
 # Core django imports
 from django.conf import settings
 from django import VERSION as DJANGO_VERSION
-from django.utils.encoding import python_2_unicode_compatible
+from six import python_2_unicode_compatible
 from django.core.validators import RegexValidator
 from django.core.exceptions import ObjectDoesNotExist
 from django.db import models
